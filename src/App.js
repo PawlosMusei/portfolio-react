@@ -4,13 +4,14 @@ import Contact from "./Pages/contact";
 import About from "./Pages/About";
 import Project from "./Pages/Project"
 import Home from "./Pages/Home";
+import Nav from "./componeten/Nav";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route>
+          <Route path="/" element={<Nav />}>
             <Route index element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
