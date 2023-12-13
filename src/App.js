@@ -11,12 +11,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Nav />}>
+          <Route path="/portfolio-react" element={<Nav />}>
             <Route index element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio-react/home" element={<Home />} />
+            <Route path="/portfolio-react/about" element={<About />} />
+            <Route path="/portfolio-react/project" element={<Project />} />
+            <Route path="/portfolio-react/contact" element={<Contact />} />
           </Route>
         </Routes>
       </BrowserRouter>

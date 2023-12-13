@@ -5,16 +5,16 @@ const Nav = () => {
         <nav className="navbar">
             <ul className="ul">
                 <li>
-                <Link to="/home">Home</Link>
+                <Link to="/portfolio-react/home">Home</Link>
                 </li>
                 <li>
-                <Link to="/project">Project</Link>
+                <Link to="/portfolio-react/project">Project</Link>
                 </li>
                 <li>
-                <Link to="/about">About</Link>
+                <Link to="/portfolio-react/about">About</Link>
                 </li>
                 <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/portfolio-react/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
