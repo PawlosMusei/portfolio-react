@@ -11,10 +11,10 @@ const About = () => {
       <section>
         <h3>Per<span>so</span>nal <span>In</span>fo</h3>
         <article>
-          I am Pawlos Abraham, a 17-year-old boy from Rotterdam. I am known as a
+          I am Pawlos Abraham, a 17-year-old man from Rotterdam. I am known as a
           motivated, eager to learn and hardworking student. I am always willing
           to learn new things and I am fully committed to your schoolwork. But
-          that is not everything! I am also a sporty boy and like to be active.
+          that is not everything! I am also a sporty man and like to be active.
         </article>
       </section>
       <section>
